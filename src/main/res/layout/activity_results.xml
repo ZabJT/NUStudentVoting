@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="5"
+    android:background="@drawable/nubuildingblurcrop"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.3"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="THANK YOU FOR"
+            android:textSize="35dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:textStyle="bold"
+            android:layout_gravity="left|center"
+            android:textColor="#101D75"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="YOUR PARTICIPATION!"
+            android:layout_marginLeft="20dp"
+            android:textStyle="bold"
+            android:textSize="35dp"
+            android:layout_gravity="left"
+            android:textColor="#101D75"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="The candidates you voted for are listed below."
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:textSize="18dp"
+            android:layout_gravity="left"
+            android:textColor="#101D75"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".2"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:background="#FED31C">
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:background="#C8FFFFFF">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left|center"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="-35dp"
+            android:text="PRESIDENT:"
+            android:textStyle="bold"
+            android:textSize="19dp"
+            android:textColor="#000000"/>
+
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="left"
+            android:src="@drawable/checkcircle"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left|center"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="-25dp"
+            android:text="President"
+            android:id="@+id/PresidentName"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:textColor="#000000"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left|center"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="30dp"
+            android:text="VICE PRESIDENT FOR EXTERNAL AFFAIRS:"
+            android:textStyle="bold"
+            android:textSize="19dp"
+            android:textColor="#000000"/>
+
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="left"
+            android:src="@drawable/checkcircle"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left|center"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="-25dp"
+            android:text="Vice President"
+            android:id="@+id/VicePresidentName"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:textColor="#000000"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".2"
+        android:gravity="bottom"
+        android:orientation="vertical"
+        android:background="#FED31C">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textSize="20dp"
+            android:textStyle="italic"
+            android:text="#BarkYourVote"
+            android:textColor="#000000"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.1"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:background="#101D75">
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="left|center"
+            android:src="@drawable/nulogo"/>
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="60dp"
+            android:layout_gravity="right|center"
+            android:src="@drawable/bulldogslogotransparent"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".2"
+        android:gravity="bottom"
+        android:orientation="vertical"
+        android:background="#FFFF">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textSize="20dp"
+            android:textStyle="italic"
+            android:text="Education that Works"
+            android:textColor="#000000"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>
